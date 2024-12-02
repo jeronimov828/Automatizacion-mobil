@@ -16,8 +16,8 @@ import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
 public class LogInStepDefinitions {
 
 
-    //@Managed(driver = "Appium")
-    //public WebDriver hisMobileDevice;
+    @Managed(driver = "Appium")
+    public WebDriver hisMobileDevice;
 
     @Before
     public void set_the_stage() {

@@ -2,7 +2,7 @@ package starter.prueba;
 
 import io.appium.java_client.AppiumBy;
 import net.serenitybdd.screenplay.targets.Target;
-import org.openqa.selenium.By;
+import net.serenitybdd.screenplay.targets.TargetBuilder;
 
 public class vistaPrincipal {
     public static Target boonLogin = Target
